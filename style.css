@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.navContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: #6C756B;
+}
+
+.itensLi{
+    color: #F7F7F2;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.divNavItem{
+    padding: 1px;
+    background-color: #F7F7F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #636361;
+    margin-right: 20px;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.item1{
+    padding: 10px 30px;
+    background-color: #F7F7F2;
+    border:2px solid #636361;
+    color: #DF2935;
+    border-radius:10px;
+}
+
+
+.sobreContainer{
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F2;
+    
+}
+
+.sobreMin{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sobreMin p{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sobreMinImg{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.img-responsive{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* box-shadow: inset 0px 5px 10px #DF2935; */
+    border:1px solid #DF2935;
+}
+.sobreh2{
+    color: #DF2935;
+    margin-bottom: 40px;
+}
+.sobreP{
+    color: #DF2935;
+}
+
+.bar{
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    margin-top:30px;
+}
+.bar1{
+    width: 50%;
+    height: 1px;
+    background-color: #DF2935;
+    margin-top:5px;
+}
+.bar2{
+    
+    width: 1px;
+    height: 80%;
+    background-color: #DF2935;
+    box-shadow: 0px 0px 5px black;
+
+}
+.bar3{
+    width: 60%;
+    height: 1px;
+    background-color: #DF2935;
+    box-shadow: 0px 5px 5px black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.bar4{
+    margin-top: 10px;
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    box-shadow: 0px 5px 5px black;
+
+}
+
+.Technologia{
+    margin-top: 20px;
+    
+}
+
+.itemImg{
+    width: 50px;
+    height:50px;
+    margin-right: 10px;
+}
+
+.itemImgMongo{
+    width: 70px;
+    height: 55px;
+}
+
+.Technologia2{
+    margin-top: 20px;
+}
